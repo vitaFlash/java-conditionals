@@ -11,7 +11,7 @@ public class Weather {
         //Si es mayor a 36: Ahí no hay quien viva
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("¿Cuál es la temperatura en celcius de tu ciudad?");
+        System.out.print("¿Cuál es la temperatura en celcius de tu ciudad? ");
         int temperature = scanner.nextInt();
         scanner.nextLine();
         if (temperature < 0) {
