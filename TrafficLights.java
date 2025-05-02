@@ -9,7 +9,7 @@ public class TrafficLights {
         } else if (trafficLight.equals("amarillo")) {
             System.out.println("Ten cuidado");
         } else if (trafficLight.equals("rojo")) {
-            System.out.println("¡¡¡Para!!!");
+            System.out.println("¡¡¡Para!!!"); 
         } else {
             System.out.println("El semáforo está dañado");
             
